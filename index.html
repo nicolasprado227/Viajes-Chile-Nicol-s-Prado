@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="ssha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="assets/css/estilos.css">
+  <title>Document</title>
+</head>
+<!--BARRA INICIO-->
+
+<body id="Inicio">
+  <header position:fixed;>
+    <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+      <div class="container-fluid">
+        <img class="img-logo" src="assets/img/viajes.svg"></a>
+        <a class="navbar-brand" href="#">Viaje Chile</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="¿Quines somos?" href="#¿Quines somos?">¿Quines somos?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="Destacados" href="#Destacados">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="Contacto" href="#Contacto">Contacto</a>
+              </li>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!---fin barra-->
+  <!--Carrusel-->
+
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--BARRA Y CARRUSEL END-->
+  <main>
+    <!--¿Quines somos?-->
+    <section id="¿Quines somos?" class="container" data-bs-theme="dark">
+      <div class="row">
+        <div class="row text-center my-5 ">
+          <h2 class="display fw-bold text-light">¿Quines somos?</h2>
+        </div>
+        <div class="container my-5">
+          <div class="card-body row text-center my-3 container ">
+            <div class="card col-md-4 container border-0 rounded-0">
+              <i class="fa-solid fa-plane fa-2x p-3 card-footer "></i>
+              <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore soluta saepe fugiat
+                asperiores qui quidem nobis id cupiditate. Quia perferendis magnam fugiat eveniet totam iusto, id
+                sapiente
+                adipisci vitae perspiciatis voluptatum consectetur nemo officia illum minus odio nulla expedita velit
+                error
+                alias similique ducimus debitis? Ipsa earum consequatur totam ratione?.</p>
+            </div>
+            <div class="card col-md-4 container border-0 rounded-0">
+              <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, laborum, provident rem
+                quas odit enim quo iure ullam tempora a ipsum maxime velit sit dignissimos illum quidem quod debitis
+                repellat, sequi ratione. Optio maiores quo praesentium repellat doloremque, explicabo ad veniam. Quod
+                tempora dolore nisi aliquid quo voluptatibus deserunt nostrum.</p>
+              <i class="fa-solid fa-mountain fa-2x p-3 card-footer"></i>
+            </div>
+            <div class="card col-md-4 border-0 rounded-0">
+              <i class="fa-solid fa-route  fa-2x p-3 card-footer"></i>
+              <p class="my-3 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos totam placeat
+                repellat,
+                ipsa quidem aperiam facere facilis accusantium dolor culpa, expedita nisi explicabo quisquam eligendi a
+                est
+                quia eveniet molestiae nesciunt! Totam corrupti dolor non quasi, architecto, voluptatum fuga, modi
+                voluptate
+                obcaecati tempora esse aliquam doloremque odio nesciunt cupiditate numquam.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--quienes somos end-->
+
+    <!--destacados-->
+    <div class="container">
+      <div id="Destacados" class="row col-12 ">
+        <div class="row text-center my-5 ">
+          <h2 class="display fw-bold text-light">Destacados</h2>
+        </div>
+        <div class="col row-cols-1 row-cols">
+          <div class="card h-100 border-0">
+            <div class="mis-destacados destacado1"></div>
+            <div class="card-body">
+              <p class="card-text text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quasi sint quas aliquam quae nulla quo sit possimus, excepturi voluptatum!</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 border-0">
+            <div class="mis-destacados destacado2"></div>
+            <div class="card-body">
+              <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nesciunt quasi velit paramon ya saca eñ trailer molestiaemodi necessitatibus </p>
+            </div>
+            <div class="card-footer">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <div class="mis-destacados destacado3"></div>
+            <div class="card-body">
+              <p class="card-text text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+                architecto deserunt quo ex ad! Beatae assumenda corrupti culpa ab placeat
+              </p>
+            </div>
+            <div class="card-footer">
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 border-0">
+            <div class="mis-destacados destacado4"></div>
+            <div class="card-body">
+              <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ea
+                reiciendis consectetur nam rerum! Labore consequatur laudantium dolorem debitis quos.
+              </p>
+            </div>
+            <div class="card-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--destacados end-->
+
+    <!--Contacto-->
+    <section id="Contacto" class="container my-2">
+      <div class="row text-center my-5">
+        <h2 class="display fw-bold text-light">Contacto</h2>
+      </div>
+      <div class="row">
+        <form action="#" method="post">
+          <div class="mb-3">
+            <label for="nombre" class="form-label fw-bold text-light">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ej. Naik Pardo">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label fw-bold text-light">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" placeholder="Ej. aquicorreo@gmail.com">
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label fw-bold text-light">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="4"></textarea>
+          </div>
+          <div class="mb-3 ">
+            <input class="btn btn-lg btn-outline-info" type="submit" value="Enviar">
+          </div>
+        </form>
+      </div>
+    </section>
+    <!--Contacto end-->
+    <div class="card-footer border-0 ">
+      <div>
+        <ul class="nav justify-content-end">
+          <h4 class=" col-12 col-md-9 mb-3 text-center text-light">Viajes Chile</h4>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="http://www.github.com" target="_blank">
+              <i class="fa-brands fa-github fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="http://www.linkedin.com" target="_blank">
+              <i class="fa-brands fa-linkedin fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="http://www.facebook.com" target="_blank">
+              <i class="fa-brands fa-facebook fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="http://www.twitter.com" target="_blank">
+              <i class="fa-brands fa-x-twitter fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      </footer>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
